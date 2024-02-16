@@ -13,7 +13,7 @@
     ></script>
     <script>
         const root = document.getElementById("root");
-        const title = React.createElement(
+        const h3 = React.createElement(
             "h3",
             { onMouseEnter: () => console.log("mouse enter") },
             "Look this awesome span!!"
@@ -28,7 +28,7 @@
             },
             "Click me!"
         );
-        const container = React.createElement("div", null, [title, btn]);
+        const container = React.createElement("div", null, [h3, btn]);
         ReactDOM.createRoot(root).render(container);
     </script>
 </html>
